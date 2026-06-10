@@ -1,7 +1,4 @@
-# Personal-portfolio
-Responsive personal portfolio website showcasing skills, projects, and contact information using HTML, CSS, Bootstrap, and JavaScript.
-
-# Personal Portfolio Website
+# Portfolio Website
 
 A responsive personal portfolio website developed to showcase my skills, projects, and professional background.
 
