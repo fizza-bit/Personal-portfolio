@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafiza Mohammad Shaikh - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .hero-section { background-color: #2c3e50; color: white; padding: 100px 0; text-align: center; }
+        .section-title { margin-bottom: 40px; font-weight: bold; color: #2c3e50; }
+        .project-card { transition: transform 0.3s ease; }
+        .project-card:hover { transform: translateY(-10px); }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Hafiza's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Hello, I'm Hafiza Mohammad Shaikh</h1>
+            <p class="lead mt-3">A passionate Front-End Web Developer.</p>
+            <a href="#projects" class="btn btn-light btn-lg mt-3">View My Work</a>
+        </div>
+    </header>
+
+    <section id="about" class="container py-5">
+        <h2 class="text-center section-title">About Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center text-muted">
+                <p class="fs-5">I am a T.Y.B.Sc (Computer Science) student who recently completed a 1-month Web Development internship at Uresh Enterprises. I specialize in building responsive, user-friendly websites and turning complex problems into beautiful interface designs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center section-title">My Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="p-4 bg-white shadow-sm rounded"><h5>HTML5</h5></div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="p-4 bg-white shadow-sm rounded"><h5>CSS3 & Flexbox</h5></div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="p-4 bg-white shadow-sm rounded"><h5>JavaScript (ES6+)</h5></div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="p-4 bg-white shadow-sm rounded"><h5>Bootstrap</h5></div>
+                </div>
+                <div class="col-md-6 col-12 mb-4 mx-auto">
+                    <div class="p-4 bg-white shadow-sm rounded"><h5>Git & GitHub Pages</h5></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container py-5">
+        <h2 class="text-center section-title">Mini Projects</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card shadow border-0 project-card h-100">
+                    <div class="card-body text-center p-5">
+                        <h3 class="card-title text-primary mb-3">JS Calculator</h3>
+                        <p class="card-text text-muted">A fully functional digital calculator built to practice logic building and DOM updates.</p>
+                        <span class="badge bg-secondary">HTML</span>
+                        <span class="badge bg-secondary">CSS</span>
+                        <span class="badge bg-secondary">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card shadow border-0 project-card h-100">
+                    <div class="card-body text-center p-5">
+                        <h3 class="card-title text-primary mb-3">To-Do Dashboard</h3>
+                        <p class="card-text text-muted">An interactive task management app focusing on form validation and event handling.</p>
+                        <span class="badge bg-secondary">Bootstrap</span>
+                        <span class="badge bg-secondary">JavaScript</span>
+                        <span class="badge bg-secondary">DOM Manipulation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-dark text-white py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Let's Connect</h2>
+            <p class="mb-4">Looking for a dedicated web developer? Feel free to reach out.</p>
+            <a href="mailto:your.email@example.com" class="btn btn-outline-light btn-lg">Email Me</a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
