@@ -25,5 +25,3 @@ A responsive personal portfolio website developed to showcase my skills, project
 - Website structure and navigation
 - UI/UX fundamentals
 
-## Author
-Hafiza Mohammad Shaikh
